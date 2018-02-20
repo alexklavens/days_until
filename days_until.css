@@ -1,0 +1,34 @@
+
+
+body {
+    margin: 10px;
+    white-space: nowrap;
+    font-family: monospace;
+    background-color: whitesmoke;
+    
+}
+
+h1 {
+    color: Dark dimgray;
+    font-size: 200%; 
+    margin: auto;
+    padding-bottom: none;
+}
+
+label {
+    font-size: 150%;
+}
+
+.result {
+    font-size: 250%;
+    color: darkblue;
+    font-weight: bold;
+    
+    
+}
+
+.out_date {
+    font-size: 100%;
+    color: darkblue;
+    display: inline;
+}

@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Days Until Extension",
+  "description": "This extension allows the user to input a date and see how many days are remaining until that date",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "days.html",
+    "default_title": "Days Until...",
+    "scripts": ["days.js"]
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
